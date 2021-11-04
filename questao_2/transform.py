@@ -38,5 +38,5 @@ def output_json(data_frame: pd.DataFrame):
 
 
 if __name__ == '__main__':
-    df = pd.read_csv('questao_02.csv')
+    df = pd.read_csv('questao_2/questao_02.csv')
     print(output_json(df))
